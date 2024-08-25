@@ -9,34 +9,34 @@ if lev == '1':
     if cho == mucTieu:
         print('bạn thắng')
     else:
-        print('bạn thua:')
+        print('bạn thua, số mục tiêu là:', mucTieu)
 elif lev == '2':
     cho = int(input('nhập số 1 - 5:\n'))
     mucTieu = random.randint(1,5)
     if cho == mucTieu:
         print('bạn thắng')
     else:
-        print('bạn thua')
+        print('bạn thua, số mục tiêu là:', mucTieu)
 elif lev == '3':
     cho = int(input('nhập số 1 - 7:\n'))
     mucTieu = random.randint(1,7)
     if cho == mucTieu:
         print('bạn thắng')
     else:
-        print('bạn thua')
+        print('bạn thua, số mục tiêu là:', mucTieu)
 elif lev == '4':
     cho = int(input('nhập số 1 - 10:\n'))
     mucTieu = random.randint(1,10)
     if cho == mucTieu:
         print('bạn thắng')
     else:
-        print('bạn thua')
+        print('bạn thua, số mục tiêu là:', mucTieu)
 elif lev == '5':
     cho = int(input('nhập số 1 - 15:\n'))
     mucTieu = random.randint(1,15)
     if cho == mucTieu:
         print('bạn thắng')
     else:
-        print('bạn thua')
+        print('bạn thua, số mục tiêu là:', mucTieu)
 else:
     print('gặp phải lỗi')
